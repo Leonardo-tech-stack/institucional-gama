@@ -25,3 +25,31 @@ main {
 .card-related-recipes img {
   width: 240px;
 }
+
+#risoto-tags {
+  display: flex;
+  flex-direction: column;
+}
+
+#risoto-tags img{
+  width: 592px;
+  height: 311px;
+}
+
+#risoto-tags div {
+  display: flex;
+  align-items: center;
+}
+
+.tags {
+  border: 1px solid #176902;
+  border-radius: 47px;
+
+  padding: 4px;
+
+  min-width: 100px;
+
+  text-align: center;
+
+  color: #176902;
+}
