@@ -1,0 +1,27 @@
+#root {
+  width: 100vw;
+  
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+main {
+  width: 70%;
+}
+
+.card-related-recipes {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  
+  box-shadow: 0px 0px 4px #000; 
+
+  font-size: large;
+}
+
+.card-related-recipes img {
+  width: 240px;
+}
